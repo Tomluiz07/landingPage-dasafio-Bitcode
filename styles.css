@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#start-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 5rem;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #FF725E;
+}
+
+#start-nav-style ul{
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+#start-nav-style li, a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+#initial-container{
+    display: flex;
+    background-color: #fdfbfb;
+    justify-content: center;
+    gap: 1rem;
+    padding: 8rem 0;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.initial-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 222;
+}
+.solid-img {
+   position: absolute;
+   z-index: 1;
+   top: 46rem;
+}
+.initial-text {
+    margin-top: 8rem;
+}
+.initial-text h1 {
+   width: 591px;
+   height: 70px;
+   margin-bottom: 1rem;
+   color: rgba(38, 50, 56, 1);
+}
+
+.initial-text p {
+    width: 591px;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    color: rgba(38, 50, 56, 1);
+    line-height: 2rem; 
+}
+
+.links a {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(255, 114, 94, 1);
+    padding: 1rem 2.3rem;
+}
+
+#btn{
+    width: 245px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    background: rgba(255, 114, 94, 1);
+}
+
+#btn a {
+   color: #ffff;
+   padding: 1rem 2.3rem;
+   text-decoration: none;
+}
+
+
+#section-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #fdfbfb;
+    padding: 8rem 0 0 0;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.section-1-div-1{
+    width: 550px;
+}
+
+
+.section-1-div-1 h1 {
+    font-size: 32px;
+    margin-bottom: 1rem;
+    color: rgba(38, 50, 56, 1);
+}
+
+.section-1-div-1 p { 
+ color: rgba(38, 50, 56, 1);
+ line-height: 1.5rem;
+ margin-bottom: 1rem;
+}
+
+.section-1-div-1 ul, li {
+    font-weight: 600;
+    line-height: 1.8rem;
+    margin-left: 1rem;
+}
+
+#doubts {
+    max-width: 1260px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 8rem 0;
+}
+#doubts h1 {
+    font-size: 32px;
+    color: rgba(38, 50, 56, 1);
+    padding-bottom: 4rem;
+}
+#container-doubts {
+    max-width: 679px;
+}
+.doubt h3 {
+  border: 2px solid #FF725E;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 20px 25px;
+}
+.doubt {
+    margin-bottom: 1rem;
+    position: relative;
+}
+.doubt  p {
+    border-left: 1px solid #FF725E;
+    border-right: 1px solid #FF725E;
+    border-bottom: 1px solid #FF725E;
+    margin-top: -08px;
+    border-radius: 0 0 8px 8px;
+    color: rgba(38, 50, 56, 1);
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding: 0;
+    opacity: 0;
+    overflow: hidden;
+    height: 0;
+}
+.doubt img {
+    position: absolute;
+    top: 28px;
+    right: 24px;
+    cursor: pointer;
+}
+
+.section-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fdfbfb;
+    flex-direction: row;
+    justify-content: center;
+    padding: 8rem 0 8rem 0;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.section-container-2 h1 {
+    width: 469px;
+    font-size: 32px;
+    text-align: center;
+    margin: 0 0 5rem  0 ;
+    color: rgba(38, 50, 56, 1);
+}
+.section-container-2 p {
+    line-height: 1.6rem;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(38, 50, 56, 1);
+    margin-top: 2rem;
+}
+
+.logo-footer p {
+    width: 340px;
+    margin-top: 1.5rem;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 2rem;
+    color: rgba(38, 50, 56, 1);
+}
+
+.final {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 4rem 0 3rem 0;  
+    background: rgba(255, 154, 108, 0.25);
+}
+
+.final h4{
+    font-size: 20px; 
+    padding-bottom: 0.6rem;
+}
+#nav-footer li {
+    list-style: none;
+}
+#nav-footer a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+    line-height: 2rem;
+}
+
+.footer-contatos p {
+  line-height: 2rem;
+}
+/*introdução da class*/
+.fundo-verde{
+    overflow: visible;
+    padding: 1rem;
+    opacity: 1;
+}
+@media (max-width: 800px) {
+    .solid-img{
+     display: none;
+    }
+}
