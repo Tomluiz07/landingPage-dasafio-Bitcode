@@ -1,7 +1,7 @@
-const elements = document.querySelectorAll('.doubt')
+const elements = document.querySelectorAll('.doubt ')
 
 elements.forEach( function(doubt){
     doubt.addEventListener('click', function (){
-        doubt.classList.toggle('fundo-verde')
+        doubt.classList.toggle('mode')
     })
 })

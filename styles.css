@@ -27,6 +27,7 @@
 }
 #initial-container{
     display: flex;
+    flex-wrap: wrap;
     background-color: #fdfbfb;
     justify-content: center;
     gap: 1rem;
@@ -39,7 +40,6 @@
 
 .initial-container-2 {
     display: flex;
-    flex-wrap: wrap;
     position: relative;
     z-index: 222;
 }
@@ -47,6 +47,7 @@
    position: absolute;
    z-index: 1;
    top: 46rem;
+   width: 1333px;
 }
 .initial-text {
     margin-top: 8rem;
@@ -159,10 +160,15 @@
     color: rgba(38, 50, 56, 1);
     font-weight: 500;
     line-height: 1.5rem;
+    padding: 1rem;
+    opacity: 1;
+    height: 3rem 0;
+    transition: 0.4s;
     padding: 0;
     opacity: 0;
     overflow: hidden;
     height: 0;
+
 }
 .doubt img {
     position: absolute;
@@ -234,13 +240,127 @@
   line-height: 2rem;
 }
 /*introdução da class*/
-.fundo-verde{
-    overflow: visible;
-    padding: 1rem;
+.mode p{
+ 
+    padding: 1.5rem 0 1.5rem 2rem;
     opacity: 1;
+    height: 100%;
+    transition: 0.4s;
 }
-@media (max-width: 800px) {
-    .solid-img{
-     display: none;
+@media (max-width: 900px) {
+    #doubts{
+   
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    @media (max-width: 690px){
+       #start-nav-style{
+        margin: 0;
+        display: none;
+       }
+       #start-nav{
+        justify-content: center;
+       }
+       .initial-container{
+        margin: 1rem 0;
+       }
+       .initial-container-2 img{
+        margin: 0;
+        width: 380px;
+        height: 405px;
+       }
+       .initial-container-2{
+        margin: 0;
+        justify-content: center;
+       }
+       .initial-text {
+        margin-top: 8rem;
     }
+    .initial-text h1 {
+       width: 380px;
+       text-align: center; 
+    }
+    
+    .initial-text p {
+        width:380px;
+        text-align: center;    
+    }
+       .links{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+       }
+       
+#section-container{
+    padding: 2rem 0 2.5rem 0; 
+}
+.section-1-div-1{
+    width: 370px;
+}
+.section-1-div-1 h1 {
+    margin-bottom: 1rem;
+}
+#section-container img{
+   width: 380px;
+   height: 400px;
+}
+.section-container-2 img{
+    width: 400px;
+   height: 400px;
+} 
+.section-container-2 h1{
+ margin: 0 ; 
+ padding-top: 3rem;
+}
+.section-container-2{
+    margin: 0;
+    padding: 1rem 1rem;
+}
+.doubts-logo {
+    width: 360px;
+    height: 400px;
+}
+#container-doubts {
+    width: 370px;
+}
+.doubt img{
+    top: 1.4rem;
+    left: 21.2rem;
+}
+#doubts .doubts-logo{
+    width: 340px;
+    height: 340px;
+}
+#doubts {
+  justify-content: center;
+}
+.doubt h3 {
+  font-size: 17px;
+  padding: 15px 20px;
+}
+}
+}
+
+@media  (max-width: 1140px)  {
+    #initial-container .solid-img{
+       display: none;
+    }
+    #initial-container .initial-container-2  {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+  
+}
+@media  (min-width: 900px){
+    #doubts{
+   
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
 }
